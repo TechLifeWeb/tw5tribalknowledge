@@ -169,6 +169,8 @@ Error message and password prompt
 
 <li>A button that creates a tiddler with a template</li>
 
+<li>A collection of references by Tobias Beer</li>
+
 <li>Add a Tab To the Sidebar</li>
 
 <li>Book Title A</li>
@@ -8826,10 +8828,15 @@ Error message and password prompt
 
 </pre>
 </div>
-<div status="complete" title="$:/Import">
-<pre>The following tiddlers were imported:
-
-# [[Variables, Fields and Filters in TiddlyWiki]]</pre>
+<div plugin-type="import" status="pending" title="$:/Import" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;Untitled&quot;: {
+            &quot;title&quot;: &quot;Untitled&quot;,
+            &quot;text&quot;: &quot;StandardNoteTemplate 1&quot;
+        }
+    }
+}</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -8849,7 +8856,7 @@ Error message and password prompt
 <div created="20180605234008006" modified="20180605234008006" title="$:/state/tab/sidebar--1835078512">
 <pre>MyTab</pre>
 </div>
-<div list="[[Variables, Fields and Filters in TiddlyWiki]] $:/Import [[Knowledge Base]] [[Creating a Tiddler with Tabs]] [[Add a Tab To the Sidebar]] MyTab $:/tags/SideBar [[Modifying the View Template]] Movies" title="$:/StoryList">
+<div list="$:/Import [[A collection of references by Tobias Beer]] [[Knowledge Base]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20140315203333234" modified="20140929002321073" tags="$:/tags/stylesheet" title="$:/StyleSheet" type="text/css">
@@ -9066,6 +9073,9 @@ NOTE: As of [[5.0.16|http://tiddlywiki.com/#Release%205.0.16-beta]] the syntax c
 &lt;$button message=&quot;tm-new-tiddler&quot;  param=&quot;StandardNoteTemplate&quot;&gt;New standard note&lt;/$button&gt;
 ```
 I put a couple buttons in the sidebar by editing: [[$:/core/ui/SideBarLists]]</pre>
+</div>
+<div blurb="A pocket full of tips" created="20180606132138595" modified="20180606132410825" subtopic="Tips" tags="[[Knowledge Base]]" title="A collection of references by Tobias Beer">
+<pre>Lots of tips from Tobias Beer here: [[TB5 - a pocket full of tips|http://tobibeer.github.io/tb5/#Welcome]]</pre>
 </div>
 <div created="20140305061626283" modified="20140315191815343" subtopic="UI Changes" tags="[[Knowledge Base]]" title="Add a Tab To the Sidebar">
 <pre>Make a new tiddler. The title of it will be the name on the tab.
