@@ -169,8 +169,6 @@ Error message and password prompt
 
 <li>A button that creates a tiddler with a template</li>
 
-<li>A collection of references by Tobias Beer</li>
-
 <li>Add a Tab To the Sidebar</li>
 
 <li>Book Title A</li>
@@ -8828,15 +8826,10 @@ Error message and password prompt
 
 </pre>
 </div>
-<div plugin-type="import" status="pending" title="$:/Import" type="application/json">
-<pre>{
-    &quot;tiddlers&quot;: {
-        &quot;Untitled&quot;: {
-            &quot;title&quot;: &quot;Untitled&quot;,
-            &quot;text&quot;: &quot;StandardNoteTemplate 1&quot;
-        }
-    }
-}</pre>
+<div status="complete" title="$:/Import">
+<pre>The following tiddlers were imported:
+
+# [[Variables, Fields and Filters in TiddlyWiki]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -8856,7 +8849,7 @@ Error message and password prompt
 <div created="20180605234008006" modified="20180605234008006" title="$:/state/tab/sidebar--1835078512">
 <pre>MyTab</pre>
 </div>
-<div list="$:/Import [[A collection of references by Tobias Beer]] [[Knowledge Base]]" title="$:/StoryList">
+<div list="[[Knowledge Base]] [[Getting Started with Node.js on Windows]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20140315203333234" modified="20140929002321073" tags="$:/tags/stylesheet" title="$:/StyleSheet" type="text/css">
@@ -8906,19 +8899,19 @@ html h2 {
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/skingery/Documents/GitHub/tw5tribalknowledge/tw5tribalknowledge.html&quot;
+            &quot;text&quot;: &quot;http://techlifeweb.com/tw5tribalknowledge.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;techlifeweb.com&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;techlifeweb.com&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;http:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -8926,7 +8919,7 @@ html h2 {
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/skingery/Documents/GitHub/tw5tribalknowledge/tw5tribalknowledge.html&quot;
+            &quot;text&quot;: &quot;/tw5tribalknowledge.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -8934,15 +8927,15 @@ html h2 {
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;file://&quot;
+            &quot;text&quot;: &quot;http://techlifeweb.com&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1920&quot;
+            &quot;text&quot;: &quot;1680&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1080&quot;
+            &quot;text&quot;: &quot;1050&quot;
         }
     }
 }</pre>
@@ -9074,9 +9067,6 @@ NOTE: As of [[5.0.16|http://tiddlywiki.com/#Release%205.0.16-beta]] the syntax c
 ```
 I put a couple buttons in the sidebar by editing: [[$:/core/ui/SideBarLists]]</pre>
 </div>
-<div blurb="A pocket full of tips" created="20180606132138595" modified="20180606132410825" subtopic="Tips" tags="[[Knowledge Base]]" title="A collection of references by Tobias Beer">
-<pre>Lots of tips from Tobias Beer here: [[TB5 - a pocket full of tips|http://tobibeer.github.io/tb5/#Welcome]]</pre>
-</div>
 <div created="20140305061626283" modified="20140315191815343" subtopic="UI Changes" tags="[[Knowledge Base]]" title="Add a Tab To the Sidebar">
 <pre>Make a new tiddler. The title of it will be the name on the tab.
 Tag your new tiddler: $:/tags/SideBar
@@ -9169,7 +9159,7 @@ Which makes these there tabs:
 &lt;$transclude field=&quot;blurb&quot;/&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/$list&gt;&lt;/$list&gt;&lt;/$set&gt;</pre>
 </div>
-<div bag="default" blurb="Complete newbies guide for getting started using TW5 on Node.js" created="20140317002616976" modified="20140317013835447" revision="4" subtopic="node.js" tags="[[Knowledge Base]]" title="Getting Started with Node.js on Windows" type="text/vnd.tiddlywiki">
+<div bag="default" blurb="Complete newbies guide for getting started using TW5 on Node.js" created="20140317002616976" modified="20180607182241942" revision="4" subtopic="node.js" tags="[[Knowledge Base]]" title="Getting Started with Node.js on Windows" type="text/vnd.tiddlywiki">
 <pre>I never used node.js until a couple weeks ago when I started using ~TiddlyWiki again and wanted to see how it worked. I thought other newbies might need some help so here are the steps I used.
 
 This how-to will describe how to download and install node.js on your Windows machine.
@@ -9177,17 +9167,19 @@ This build will be portable. That is, you will install it into a folder that you
 
 &lt;strong&gt;Installing Node.js Portable&lt;/strong&gt;
 
-You'll first need to download nodejs-portable from https://github.com/crazy-max/nodejs-portable
+You'll first need to download nodejs-portable from https://github.com/crazy-max/nodejs-portable/releases
 I'll assume you are connected to the internet for the rest of the instructions.
 
-# Unzip the files to the directory you want to install Node. For this example, I am going to install to D:\NodePortable which I will call the Install Directory in this how-to.
-# Open a command window by running cmd
-# cd to the Install Directory
-# type:  `nodejs-portable` and hit enter to run the batch file
-# Enter 2 to install
-# When it is done, enter 1 and you'll get a reply that all is done.
+# Downolad nodejs-portable.exe
+# Put nodejs-portable.exe in a new empty folder
+# Double-click on  nodejs-portable.exe file
+# Choose 1 to install
+# Hit return twice to accept the default version and architecture
+# Node will begin downloading into your folder
 
 You now have a copy of Node!
+
+Anytime you want to run Node just double click on nodejs-portable.exe and choose #2
 
 Ok, now let's get ~TiddlyWiki installed.
 
@@ -9195,13 +9187,13 @@ Ok, now let's get ~TiddlyWiki installed.
 
 (The following is a bit of a modification of the [[official tiddlywiki node.js how-to|http://tiddlywiki.com/static/Installing%2520TiddlyWiki%2520on%2520Node.js.html]] put here for convenience.)
 
-# cd back to the Install Directory (you must do this because the batch file above leaves the cursor in the work directory)
+# Double click on nodejs-portable.exe and choose #2 to open the shell
 # In the command window type: 
 #&gt; `npm install -g tiddlywiki`
 #&gt; If it fails with an error you may need to re-run the command as an administrator
 # Check ~TiddlyWiki is installed by typing:
 #&gt; `tiddlywiki --version`
-# In response, you should see ~TiddlyWiki report its current version (eg `5.0.8-beta`; you may also see other debugging information reported)
+# In response, you should see ~TiddlyWiki report its current version (eg `5.1.17`; you may also see other debugging information reported)
 # Try it out:
 ## `tiddlywiki mynewwiki --init server` to create a folder for a new wiki that includes server-related components
 ## `tiddlywiki mynewwiki --server` to start TiddlyWiki
