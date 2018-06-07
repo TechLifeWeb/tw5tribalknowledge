@@ -1,0 +1,28 @@
+html body.tw-body { font-family: 'Roboto', 'Segoe UI', Segoe, 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; line-height:1.2; vertical-align:middle;  }
+
+/* Tiddler Frame*/
+
+html .tc-tiddler-frame {
+  padding:1.5rem;
+  box-shadow:0 1px 2px #aaa;
+  background:white;
+  margin:0 1rem 1rem;
+  border-radius:3px;
+  user-select:none;
+   transform-origin:top left;
+}
+
+html h1 {
+  font-size:2rem;
+  font-weight:200;
+}
+html strong {
+    font-weight:bold;
+    color:#539D00;
+  }
+html h2 {
+  font-size:.9rem;
+  line-height:2.5;
+  color:gray;
+  font-weight:400;
+}

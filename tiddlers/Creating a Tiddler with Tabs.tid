@@ -1,0 +1,8 @@
+blurb: How to create tiddlers containing tabs
+created: 20140309180448850
+modified: 20140315195843540
+subtopic: Syntax
+tags: [[Knowledge Base]]
+title: Creating a Tiddler with Tabs
+
+<<tabs "[[Creating Tabs From Static Tiddlers]] [[Creating Tabs From Dynamic Tiddlers]]">>

@@ -1,0 +1,25 @@
+blurb: 
+created: 20180605233633157
+modified: 20180605233927412
+subtopic: UI Changes
+tags: [[Knowledge Base]]
+title: Hiding removing the last modified date
+
+Put this text in tiddler
+
+```
+.tc-story-river .tc-subtitle{ display:none; }
+```
+
+Give tiddler a tag:
+
+```
+$:/tags/Stylesheet
+```
+
+
+Change type of tiddler:
+
+```
+text/css
+```

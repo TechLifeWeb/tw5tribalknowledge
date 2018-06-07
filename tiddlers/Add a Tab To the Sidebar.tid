@@ -1,0 +1,11 @@
+created: 20140305061626283
+modified: 20140315191815343
+subtopic: UI Changes
+tags: [[Knowledge Base]]
+title: Add a Tab To the Sidebar
+
+Make a new tiddler. The title of it will be the name on the tab.
+Tag your new tiddler: $:/tags/SideBar
+
+Anything you put in your tiddler will show up in the tab.
+See [[MyTab]] as an example.
