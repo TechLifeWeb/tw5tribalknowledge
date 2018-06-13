@@ -1,10 +1,16 @@
-html body.tw-body { font-family: 'Roboto', 'Segoe UI', Segoe, 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; line-height:1.2; vertical-align:middle;  }
+created: 20180613212958806
+modified: 20180613213934280
+tags: $:/tags/Stylesheet
+title: $:/GoogleNowCardStyle
+type: text/vnd.tiddlywiki
+
+html body.tc-body { font-family: 'Roboto', 'Segoe UI', Segoe, 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; line-height:1.2; vertical-align:middle;  }
 
 /* Tiddler Frame*/
 
 html .tc-tiddler-frame {
   padding:1.5rem;
-  box-shadow:0 1px 2px #aaa;
+  box-shadow:0 1px 2px #999;
   background:white;
   margin:0 1rem 1rem;
   border-radius:3px;
