@@ -1,0 +1,43 @@
+blurb: Add scalable emoji to your wiki!
+created: 20180622232702419
+modified: 20180622232809421
+subtopic: UI Changes
+tags: [[Knowledge Base]]
+title: CSS Emoji
+type: text/vnd.tiddlywiki
+
+I recently found this great site for CSS Emojis: https://afeld.github.io/emoji-css/
+
+You can easily include them in your TiddlyWiki like this:
+
+* Create a new tiddler like this one [[$:/emojicss]] (or drag that link into your own TiddlyWiki
+* Put this in the tiddler:
+
+```
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+```
+
+* Tag the tiddler:
+
+```
+$:/tags/RawMarkup
+```
+
+* Save the Tiddler and reload your TiddlyWiki
+
+
+Now all you have to do is look up an emoji in the link above and then you can put i it directly in you wiki like:
+
+```
+<i class="em em-100"></i>
+```
+Will give you <i class="em em-100"></i>
+
+
+If you know some css you can even scale them. Or take advantage of things you are already scaling like the h1 tags. Here is a simple example using the h1 tag
+
+```
+<h1><i class="em em-100"></i></h1>
+```
+
+<h1><i class="em em-100"></i></h1>

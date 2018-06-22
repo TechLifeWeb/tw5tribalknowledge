@@ -1,0 +1,7 @@
+created: 20180622221724277
+modified: 20180622231038892
+tags: $:/tags/RawMarkup
+title: $:/emojicss
+type: text/vnd.tiddlywiki
+
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
