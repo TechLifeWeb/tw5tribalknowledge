@@ -1,0 +1,25 @@
+blurb: 
+created: 20180623160034081
+modified: 20180623165006566
+subtopic: Syntax
+tags: [[Knowledge Base]]
+title: Display a field if there is one otherwise display title
+type: text/vnd.tiddlywiki
+
+To display the Caption field if there is one and if not then show the title:
+
+```
+<$transclude field='caption'>
+<$view field='title'/>
+</$transclude>
+```
+
+Transclude wikifis the content of the caption field, if you don't want that for some reason you can use this instead:
+
+```
+<$view field='caption'>
+<$view field='title'/>
+</$view>
+```
+
+from https://groups.google.com/d/msg/tiddlywiki/LRhfqVKkltg/vaP5UOUyCgAJ

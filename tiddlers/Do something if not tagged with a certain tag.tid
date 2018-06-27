@@ -1,0 +1,13 @@
+blurb: 
+created: 20180623163321466
+modified: 20180623163448378
+subtopic: Syntax
+tags: [[Knowledge Base]]
+title: Do something if not tagged with a certain tag
+type: text/vnd.tiddlywiki
+
+```
+<$list filter="[is[current]!tag[Home]]">
+if not tagged Home do this
+</$list>
+```

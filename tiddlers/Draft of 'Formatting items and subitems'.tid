@@ -1,0 +1,31 @@
+blurb: Code for lists
+created: 20180623170348666
+draft.of: Formatting items and subitems
+draft.title: Formatting items and subitems
+modified: 20180623190642452
+subtopic: Syntax
+tags: [[Knowledge Base]]
+title: Draft of 'Formatting items and subitems'
+type: text/vnd.tiddlywiki
+
+<div class="tc-menu-list-item">
+item
+<div class="tc-menu-list-subitem">
+subitem
+<div class="tc-menu-list-subitem">
+deeper subitem
+<div class="tc-menu-list-subitem">
+even deeper subitem
+</div></div></div></div>
+
+```
+<div class="tc-menu-list-item">
+item
+<div class="tc-menu-list-subitem">
+subitem
+<div class="tc-menu-list-subitem">
+deeper subitem
+<div class="tc-menu-list-subitem">
+even deeper subitem
+</div></div></div></div>
+```

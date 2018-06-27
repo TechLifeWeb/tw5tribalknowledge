@@ -1,9 +1,10 @@
 created: 20180613212958806
-modified: 20180613213934280
+modified: 20180623160522067
 tags: $:/tags/Stylesheet
 title: $:/GoogleNowCardStyle
 type: text/vnd.tiddlywiki
 
+<pre>
 html body.tc-body { font-family: 'Roboto', 'Segoe UI', Segoe, 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; line-height:1.2; vertical-align:middle;  }
 
 /* Tiddler Frame*/
@@ -28,7 +29,7 @@ html strong {
   }
 html h2 {
   font-size:.9rem;
-  line-height:2.5;
   color:gray;
   font-weight:400;
 }
+</pre>

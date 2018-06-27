@@ -1,0 +1,34 @@
+blurb: Tips for connecting to you node across your LAN
+created: 20180626162102842
+modified: 20180626202328806
+subtopic: node.js
+tags: [[Knowledge Base]]
+title: Tip for serving TW5 on node to local network
+type: text/vnd.tiddlywiki
+
+Tip for serving TW5 on node to local network - Google Groups https://groups.google.com/forum/#!msg/tiddlywiki/Zzs62iEzzCc/zuUwy3Z2nb4J;context-place=forum/tiddlywiki 
+
+This is how I start my TiddlyWikis:
+
+Create a batch file titled like: start_wiki_8083.bat
+This is simply a text tile. I title it that way so I remember that this wiki will be started on port 8083
+
+in that file put
+
+```
+@echo off
+tiddlywiki .\WikiOne--server 8083 $:/core/save/lazy-images text/plain text/html "" "" 0.0.0.0
+```
+
+Make sure that second line is all on one line in your batch file.
+
+Put that file into the folder that contains all your wiki folderss. Similar to:
+
+* FolderOfWikis
+** WikiOne
+** WikiTwo
+
+In that case I would put the file in the folder called FolderOfWikis
+
+Now when you double click the file you will start the WikiOne TiddlyWiki on port 8083
+
