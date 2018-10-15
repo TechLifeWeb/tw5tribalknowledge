@@ -1,0 +1,15 @@
+created: 20180902080531455
+modified: 20181009182212330
+origin: https://groups.google.com/forum/#!topic/tiddlywiki/QIZQX7Jy61s
+tags: $:/tags/Stylesheet
+title: $:/bimlas/SplashScreenRemover
+type: text/vnd.tiddlywiki
+
+<style>
+/* Remove splash screen when Tiddly is loaded */
+
+.tc-body {
+  background-image: none;
+  height: initial;
+}
+</style>

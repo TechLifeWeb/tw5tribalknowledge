@@ -1,8 +1,11 @@
 blurb: Link to details about the Markdown plugin and how it is used
 created: 20140305172124580
-modified: 20140315195920255
+modified: 20181009232622648
 subtopic: Plugins
-tags: [[Knowledge Base]]
+tags: Plugins
 title: Markdown Demo
+type: text/vnd.tiddlywiki
 
-http://tiddlywiki.com/markdowndemo.html
+Link to details about the Markdown plugin and how it is used
+
+https://tiddlywiki.com/plugins/tiddlywiki/markdown/index.html

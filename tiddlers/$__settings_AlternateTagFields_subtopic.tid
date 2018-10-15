@@ -1,0 +1,11 @@
+color: #800040
+created: 20180722044225624
+fieldname: subtopic
+hide_in_edit_mode: 
+hide_in_view_mode: 
+label: subtopic
+modified: 20180722044236203
+title: $:/settings/AlternateTagFields/subtopic
+type: text/vnd.tiddlywiki
+wikify: 
+

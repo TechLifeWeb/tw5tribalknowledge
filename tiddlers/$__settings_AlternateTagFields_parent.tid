@@ -1,0 +1,11 @@
+color: #800000
+created: 20180730170703650
+fieldname: parent
+hide_in_edit_mode: 
+hide_in_view_mode: 
+label: Parent
+modified: 20181009182212200
+title: $:/settings/AlternateTagFields/parent
+type: text/vnd.tiddlywiki
+wikify: 
+

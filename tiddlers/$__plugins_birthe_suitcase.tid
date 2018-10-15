@@ -1,0 +1,80 @@
+created: 20180815182929989
+description: Suitcase packing
+list: readme
+modified: 20181009182212221
+plugin-type: plugin
+title: $:/plugins/birthe/suitcase
+type: application/json
+version: 0.0.2
+
+{
+    "tiddlers": {
+        "$:/plugins/birthe/suitcase/Done": {
+            "created": "20160808123233733",
+            "creator": "MadamMim",
+            "text": "<table>\n<$list filter=\"[!has[draft.of]tag[pack]tag[done]sort[created]]\">\n<tr><td> <$checkbox tag=\"done\"> ~~<$link to={{!!title}}><$view field=\"title\"/></$link>~~</$checkbox> </td></tr>\n</$list>\n</table>\n<hr>",
+            "modified": "20160815212624204",
+            "modifier": "Birthe",
+            "sort": "025",
+            "tags": "$:/tags/TiddlyPack Tpack",
+            "title": "$:/plugins/birthe/suitcase/Done",
+            "caption": "Done"
+        },
+        "$:/plugins/birthe/suitcase/TiddlyPack": {
+            "created": "20160808090106120",
+            "creator": "MadamMim",
+            "text": "@@.tabsstyle\n<$macrocall $name=\"tabs\" tabsList=\"[all[shadows+tiddlers]tag[$:/tags/TiddlyPack]!has[draft.of]sort[list]]+[nsort[sort]]\" default={{$:/config/TiddlyPack/Default}}/>\n@@\n\n<$button tooltip=\"Add new tab\" >\n<$action-sendmessage $message=\"tm-new-tiddler\" title=\"Write your new packing category\" tags=\"$:/tags/TiddlyPack\" sort='000' text=\"{{$:/plugins/birthe/suitcase/PacklistButton}}\"/>\nAdd new tab\n</$button>\n<$button popup=\"$:/state/TpackSort\">Change tab order</$button>\n\n<$reveal type=\"popup\" state=\"$:/state/TpackSort\">\n<div class=\"tc-drop-down tc-popup-keep\">\n\n<$transclude tiddler=\"$:/plugins/birthe/suitcase/sortOrder\"/>\n\n</div>\n</$reveal>",
+            "icon": "$:/plugins/birthe/suitcase/image/briefcase.png",
+            "modified": "20160815221814540",
+            "modifier": "Birthe",
+            "tags": "Tpack",
+            "title": "$:/plugins/birthe/suitcase/TiddlyPack"
+        },
+        "$:/plugins/birthe/suitcase/readme": {
+            "created": "20160815212739615",
+            "creator": "Birthe",
+            "text": "A remake of TWc tiddlypacking for use with TW5",
+            "title": "$:/plugins/birthe/suitcase/readme",
+            "tags": "Tpack",
+            "modified": "20160815222334970",
+            "modifier": "Birthe"
+        },
+        "$:/plugins/birthe/suitcase/image/briefcase.png": {
+            "created": "20160808190257721",
+            "creator": "Birthe",
+            "text": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAAYAAAAGAB4TKWmAAAAZklEQVRIx2NgGCmgnoGB4T8arqel4VS1BGYYseIogIla3iTGAi8GBobHWIIB3cWExB9BzcIA2AwnFz+GGcqI5hJqAkb0IKIJGLVg1IJRC+hswRMqmovVLC8GSElIaUGHszQdBVgBAJY1RxsVvp5tAAAAAElFTkSuQmCC",
+            "modified": "20160815213540906",
+            "modifier": "Birthe",
+            "title": "$:/plugins/birthe/suitcase/image/briefcase.png",
+            "type": "image/png",
+            "tags": "Tpack"
+        },
+        "$:/plugins/birthe/suitcase/sortOrder": {
+            "created": "20160808114537089",
+            "creator": "MadamMim",
+            "text": "<table>\n<tr><th>Category</th><th>Sort order</th></tr>\n<$list filter=\"[tag[$:/tags/TiddlyPack]nsort[sort]]\">\n<tr><td><$link><$view field=\"title\"/></$link></td><td><$edit-text  field=\"sort\" class=\"tc-edit-texteditor\" size=\"10\"/></td></tr>\n</$list>\n</table>",
+            "modified": "20160815214930502",
+            "modifier": "Birthe",
+            "tags": "Tpack",
+            "title": "$:/plugins/birthe/suitcase/sortOrder"
+        },
+        "$:/plugins/birthe/suitcase/PacklistButton": {
+            "created": "20160808144709550",
+            "creator": "MadamMim",
+            "text": "\\define newPackHereButtonTags()\n[[$(currentTab)$]] pack\n\\end\n\\define newPackHereButton()\n<$button tooltip='New item to pack'>\n<$action-sendmessage $message='tm-new-tiddler' tags=<<newPackHereButtonTags>> amount=''/>\nNew item\n</$button>\n\\end\n<<newPackHereButton>> <$link to=<<currentTab>> tooltip=\"Link to source tiddler\"><<currentTab>></$link>\n\n<table>\n<$list filter=\"[!has[draft.of]tag<currentTab>tag[pack]!tag[done]sort[created]]\">\n<tr><td> <$checkbox tag=\"done\"> <$link to={{!!title}}><$view field=\"title\"/></$link></$checkbox> </td><td> <$edit-text  field=\"amount\" class=\"tc-edit-texteditor\" size=\"30\"/> </td></tr>\n</$list>\n</table>\n<hr>",
+            "modified": "20160815220137868",
+            "modifier": "Birthe",
+            "tags": "Tpack",
+            "title": "$:/plugins/birthe/suitcase/PacklistButton"
+        },
+        "$:/plugins/birthe/suitcase/stylesheet/packing": {
+            "created": "20160808171032164",
+            "creator": "Birthe",
+            "text": "div.tc-tagged-Tpack .tc-titlebar {\n     padding-bottom      : 4px;\n     margin-bottom       : 0em;\n     border-bottom       : 6px solid blue;\n}\n\n.tc-tagged-Tpack .tc-subtitle { visibility: hidden;}\n\nhtml button.tc-tag-label {background-color: #CCE6FF; }\n\n.tabsstyle .tc-tab-content {Background-color:#F9FBFE;}\n\n.tabsstyle .tc-tab-buttons button.tc-tab-selected { \n      background-color: #F9FBFE; \n      color: #04B; \n      border-left: 1px solid #CCE6FF; \n      border-right: 1px solid #CCE6FF; \n      border-top: 1px solid #CCE6FF; \n      border-radius: 0.3em; \n}\n\n.tabsstyle .tc-tab-buttons button:not(.tc-tab-selected) { \n      background-color: #CCE6FF; \n      color: #309; \n      font-weight: bold; \n      border-left: 1px solid #C6D7E8; \n      border-right: 1px solid #C6D7E8; \n      border-top: 1px solid #C6D7E8; \n      border-radius: 0.3em; \n}",
+            "modified": "20160815231547468",
+            "modifier": "Birthe",
+            "tags": "Tpack $:/tags/Stylesheet",
+            "title": "$:/plugins/birthe/suitcase/stylesheet/packing"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+created: 20180730182317007
+creator: skingery
+modified: 20181009183551312
+modifier: TechLifeWeb
+title: Home
+type: text/vnd.tiddlywiki
+
+{{General}}
+<div class="tc-table-of-contents">
+<$macrocall $name=toc-selective-expandable tag={{!!title}} sort='sort[title]'/>
+</div>
+<hr>
+<$button>New Category
+<$action-sendmessage $message="tm-new-tiddler" text='<$transclude tiddler="$:/category">' tags={{!!title}} />
+</$button>

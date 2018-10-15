@@ -1,6 +1,7 @@
 created: 20140304204931622
-modified: 20140304215333203
+modified: 20181009233034784
 title: Problems
+type: text/vnd.tiddlywiki
 
 Trying to get generic code to list all Tiddlers that are tagged with the title of a Tiddler then creating a a list with the titles by subtopic. See [[Movies]] example.
 
@@ -13,4 +14,4 @@ Issues:
 Filtering is working because Magazine Title B is not showing up in lists because it has a Subtopic of Travel which no other list has. Also, Movie Title E has no subtopic so it isn't showing up in Movies.
 
 -----
-Update: See the [[Books]] Tiddler for the solution
+Update: See the [[Books Example]] Tiddler for the solution

@@ -1,9 +1,10 @@
 blurb: 
 created: 20140306064006867
-modified: 20140929002206584
+modified: 20181009235329399
 subtopic: UI Changes
-tags: [[Knowledge Base]]
+tags: [[UI Changes]]
 title: A button that creates a tiddler with a template
+type: text/vnd.tiddlywiki
 
 You can create a simple tiddler that has fields, code, tags, anything you want to use over again. See StandardNoteTemplate as an example. 
 

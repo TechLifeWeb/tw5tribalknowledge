@@ -1,9 +1,10 @@
 blurb: A universal document converter
 created: 20140307001955700
-modified: 20140315191728468
+modified: 20181009232327041
 subtopic: Not TiddlyWiki
-tags: [[Knowledge Base]]
+tags: [[Not Tiddlywiki]]
 title: Pandoc
+type: text/vnd.tiddlywiki
 
 This tool could be helpful if you have a document and need to convert it to a format that ~TiddlyWiki understands.
 

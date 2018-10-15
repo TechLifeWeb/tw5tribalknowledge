@@ -1,10 +1,11 @@
 blurb: Iframe syntax for embedding ~YouTube
 created: 20140305051011479
-modified: 20140315195806190
+modified: 20181009234840501
 subtopic: Syntax
-tags: [[Knowledge Base]]
+tags: Syntax
 title: Example of YouTube Video in Tiddler
+type: text/vnd.tiddlywiki
 
-You can use the code below for most videos on YouTube. Go to YouTube, look at the URL of the video you want to embed in your wiki. Copy the unique numbers at the end of the URL (in this example, ~Qo7vUdKTlhk) and replace the ones in this sample link..
+You can use the code below for most videos on YouTube. Go to YouTube, look at the URL of the video you want to embed in your wiki. Copy the unique numbers at the end of the URL (in this example, 08UcDFqTtwk and replace the ones in this sample link..
 
-<html><iframe src="https://www.youtube.com/v/Qo7vUdKTlhk" width="420" height="315" style="border: none;"></iframe></html>
+<html><iframe width="560" height="315" src="https://www.youtube.com/embed/08UcDFqTtwk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></html>

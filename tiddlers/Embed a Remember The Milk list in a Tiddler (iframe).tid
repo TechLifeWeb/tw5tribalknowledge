@@ -1,0 +1,15 @@
+blurb: 
+created: 20140307171216963
+modified: 20181009234501197
+subtopic: Syntax
+tags: Syntax
+title: Embed a Remember The Milk list in a Tiddler (iframe)
+type: text/vnd.tiddlywiki
+
+Use an iframe to embed one of your [[Remember The Milk|https://www.rememberthemilk.com/]] lists.
+
+```
+<html><iframe src="https://www.rememberthemilk.com/services/modules/googleig/" width="420" height="315" style="border: none;"></iframe></html>
+```
+
+<html><iframe src="https://www.rememberthemilk.com/services/modules/googleig/" width="420" height="315" style="border: none;"></iframe></html>

@@ -1,8 +1,9 @@
 created: 20140305061626283
-modified: 20140315191815343
+modified: 20181009235415269
 subtopic: UI Changes
-tags: [[Knowledge Base]]
+tags: [[UI Changes]]
 title: Add a Tab To the Sidebar
+type: text/vnd.tiddlywiki
 
 Make a new tiddler. The title of it will be the name on the tab.
 Tag your new tiddler: $:/tags/SideBar

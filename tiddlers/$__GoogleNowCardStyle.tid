@@ -1,5 +1,5 @@
 created: 20180613212958806
-modified: 20180623160522067
+modified: 20180719181113716
 tags: $:/tags/Stylesheet
 title: $:/GoogleNowCardStyle
 type: text/vnd.tiddlywiki
@@ -15,8 +15,7 @@ html .tc-tiddler-frame {
   background:white;
   margin:0 1rem 1rem;
   border-radius:3px;
-  user-select:none;
-   transform-origin:top left;
+  transform-origin:top left;
 }
 
 html h1 {

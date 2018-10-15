@@ -1,9 +1,10 @@
 blurb: You have a standard TW5 HTML file and want to start using Node.js
 created: 20140306211213956
-modified: 20140317014127407
+modified: 20181009232034705
 subtopic: node.js
-tags: [[Knowledge Base]]
+tags: node.js
 title: How to: Import TW5 standalone to TW5 Node instance
+type: text/vnd.tiddlywiki
 
 Jeremy Ruston explains here:
 https://groups.google.com/d/msg/tiddlywiki/qxfH1fBqACA/AYhwI8qdPosJ

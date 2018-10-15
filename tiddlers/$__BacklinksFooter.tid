@@ -1,0 +1,13 @@
+created: 20180618052809392
+creator: skingery
+modified: 20181009182212340
+modifier: skingery
+tags: $:/tags/ViewTemplate
+title: $:/BacklinksFooter
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]!title[Home]]">
+<hr>
+<$button to=Home >{{$:/core/images/home-button}} Home</$button>
+</$list>
+

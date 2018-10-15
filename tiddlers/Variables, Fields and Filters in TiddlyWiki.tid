@@ -1,9 +1,10 @@
 blurb: Eric Shulman's notes
 created: 20180606000501910
-modified: 20180606000645980
+modified: 20181009235121892
 subtopic: Syntax
-tags: [[Eric Shulman]] [[Knowledge Base]]
+tags: Syntax
 title: Variables, Fields and Filters in TiddlyWiki
+type: text/vnd.tiddlywiki
 
 !! Types of Brackets
 

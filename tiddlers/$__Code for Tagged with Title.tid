@@ -1,0 +1,10 @@
+caption: Code for creating a tiddler from a tag
+created: 20180709225032484
+creator: skingery
+modified: 20181009182212319
+modifier: skingery
+tags: $:/tags/TextEditor/Snippet
+title: $:/Code for Tagged with Title
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/TaggedThisTitle">

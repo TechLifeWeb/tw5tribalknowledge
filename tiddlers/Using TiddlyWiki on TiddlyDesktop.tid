@@ -1,9 +1,10 @@
 blurb: 
 created: 20140307205949413
-modified: 20140315195659051
+modified: 20181015200150847
 subtopic: Tools
-tags: [[Knowledge Base]]
+tags: Platforms
 title: Using TiddlyWiki on TiddlyDesktop
+type: text/vnd.tiddlywiki
 
 An alternative to running inside a browser is to use [[TiddlyDesktop|http://tiddlywiki.com/static/Using%2520TiddlyWiki%2520on%2520TiddlyDesktop.html]]. It is lightweight, simply unzip and run. Details here: 
 http://tiddlywiki.com/static/Using%2520TiddlyWiki%2520on%2520TiddlyDesktop.html

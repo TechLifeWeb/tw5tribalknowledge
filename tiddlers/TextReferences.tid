@@ -1,9 +1,10 @@
 blurb: Link to details explaining ~TextReferences
 created: 20140306210207420
-modified: 20140315195730392
+modified: 20181009235046897
 subtopic: Syntax
-tags: [[Knowledge Base]]
+tags: Syntax
 title: TextReferences
+type: text/vnd.tiddlywiki
 
 A ~TextReference identifies a chunk of text from a tiddler that can be retrieved or modified depending on the context.
 http://tiddlywiki.com/static/TextReference.html
