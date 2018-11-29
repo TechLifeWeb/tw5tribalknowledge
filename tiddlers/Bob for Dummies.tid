@@ -1,0 +1,72 @@
+created: 20181023221505892
+modified: 20181023222131603
+tags: BOB
+title: Bob for Dummies
+type: text/vnd.tiddlywiki
+
+Notes from the Google Group: Bob for Dummies? - Google Groups https://groups.google.com/forum/#!topic/tiddlywiki/qtC9DoVTSYo 
+
+* The plugin version is available here: https://github.com/OokTech/TW5-Bob
+* The BobEXE version is available here: https://github.com/OokTech/TW5-BobEXE/releases/tag/1.0.7
+
+From Jed Carty (Bob creator):
+
+<<<
+If you want to use Bob and don't want to think about it, follow the link for BobEXE, find the executable for your system (windows osx or linux), download it to the folder where you want your wikis and run it.
+
+Then it will be like a normal tiddlywiki. If you are on windows or osx it will open a terminal window that you can ignore. You can stop the server by closing the terminal window.
+
+Edits are saved as soon as you make them, there is more in the first tiddler that you will see in the wiki that opens when you run the executable. There is documentation in the 'Bob Settings' tab in the control panel.
+
+There is more you can do but that should be everything you need to use it.
+<<<
+
+From Dave:
+
+<<<
+For anyone also trying to sync Bob wikis between PCs and Android, here are the steps that worked for me:
+
+(background - Termux has 3 areas you can install stuff to, 2 of which are off limits to Syncthing.  This is how to mke it work in the shared area)
+
+
+install termux on your phone
+run termux-setup-storage (at the Termux terminal on your phone)
+
+cd ~/storage/shared <-- that's the area you can install stuff to where other apps can access too
+
+mkdir Termux <-- or whatever you want to call it
+
+cd ./Termux
+
+pkg install git
+
+pkg install nodejs
+
+git clone --depth=1 --branch v5.1.17 https://github.com/Jermolene/TiddlyWiki5.git
+
+git clone --depth=1 https://github.com/OokTech/TW5-Bob.git TiddlyWiki5/plugins/OokTech/Bob
+
+mkdir TiddlyWiki5/Wikis
+
+cp -r TiddlyWiki5/plugins/OokTech/Bob/MultiUserWiki TiddlyWiki5/Wikis/BobWiki/
+
+*** note - at this point I got an error that I thought would mean it didn't work, something about permissions not granted, but I just kept going  anyway and it worked ***
+
+After that is finished, and to start up tiddlywiki later type:
+
+cd TiddlyWiki5
+node ./tiddlywiki.js Wikis/BobWiki --wsserver
+
+
+then in the Termux standard out it'll print the address that you go to in the browser and you're away to the races!!
+
+Of course after that you'll have to set up your folder shares in syncthing the way you normally would
+
+My phone is rooted, but I think this is probably possible without root.
+
+
+Hope this helps,
+- Dave
+
+P.S. I just am syncing the "tiddlers" folder so I only have the one TW I'm syncing.  If I get a phone with more memory, maybe I'll try syncing the folder that can hold multiple wikis
+<<<
