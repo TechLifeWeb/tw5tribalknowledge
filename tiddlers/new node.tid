@@ -1,9 +1,7 @@
-blurb: Complete newbies guide for getting started using TW5 on Node.js
-created: 20140317002616976
-modified: 20190122070625585
-subtopic: node.js
-tags: node.js
-title: Getting Started with Node.js on Windows
+created: 20190121053205877
+modified: 20190122070555027
+tags: 
+title: new node
 type: text/vnd.tiddlywiki
 
 This how-to will describe how to download and install Node.js on your Windows machine. It isn't too difficult but you might want to consider running [[BOB]] instead. 
