@@ -1,0 +1,22 @@
+created: 20190110171717360
+modified: 20190612234641321
+tags: Syntax
+title: Button to delete everything with a certain tag
+type: text/vnd.tiddlywiki
+
+This button deletes everything tagged "MyStory"
+
+```
+\define MyFilter()
+[tag[$(MyTag)$]sort[title]]
+\end
+\define delbytag()
+   <$button>Delete Tagged
+   <$action-deletetiddler $filter=<<MyFilter>>/>
+   </$button>
+\end
+
+<$set name="MyTag" value=MyStory>
+
+<$macrocall $name="delbytag"></$macrocall>
+```

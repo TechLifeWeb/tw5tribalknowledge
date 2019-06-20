@@ -1,0 +1,8 @@
+blurb: This is a smallish macro to create a table, based on filtered tiddlers field values. It is particularly simple to specify what fields to show in the table  and to manually edit the values.
+created: 20190619222044577
+modified: 20190619222120368
+tags: Plugins
+title: fields2table
+type: text/vnd.tiddlywiki
+
+Presenting: fields2table - Google Groups https://groups.google.com/forum/#!topic/tiddlywiki/Pizophc7aFk 

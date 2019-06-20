@@ -1,6 +1,6 @@
 blurb: Tips for connecting to you node across your LAN
 created: 20180626162102842
-modified: 20181009232111185
+modified: 20190130000100318
 subtopic: node.js
 tags: node.js
 title: Tip for serving TW5 on node to local network
@@ -17,7 +17,7 @@ in that file put
 
 ```
 @echo off
-tiddlywiki .\WikiOne--server 8083 $:/core/save/lazy-images text/plain text/html "" "" 0.0.0.0
+tiddlywiki WikiOne --listen host=0.0.0.0 port=8083
 ```
 
 Make sure that second line is all on one line in your batch file.

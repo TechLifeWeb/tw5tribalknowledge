@@ -1,0 +1,12 @@
+created: 20190130004050722
+description: Atom Feed
+extension: .xml
+modified: 20190130004050722
+tags: $:/tags/Exporter
+title: $:/plugins/dullroar/atomfeed/atomexport
+type: text/vnd.tiddlywiki-html
+
+\define renderContent()
+<$text text=<<atomtiddlers filter:"""$(exportFilter)$""">>/>
+\end
+<<renderContent>>

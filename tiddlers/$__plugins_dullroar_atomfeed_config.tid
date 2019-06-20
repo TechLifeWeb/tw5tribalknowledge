@@ -1,0 +1,9 @@
+caption: Atom Feeds
+created: 20190130004050703
+modified: 20190130004050703
+tags: $:/tags/ControlPanel/Info
+title: $:/plugins/dullroar/atomfeed/config
+type: application/x-tiddler
+
+|Canonical feed URL |<$edit-text tiddler="$:/config/atomserver" tag="input"/><br>//Base URL path with out the trailing `/atom.xml`// |
+|Included Tiddlers |<$edit-text tiddler="$:/config/atomfilter" default="" tag="textarea"/><br>//Filter for the content in the feed. Remember ordering is important! Or you can choose the <$button set="$:/config/atomfilter" setTo="[!is[system]!untagged[]!tag[static]!title[Table of Contents]!sort[modifed]]">default filter</$button>// |

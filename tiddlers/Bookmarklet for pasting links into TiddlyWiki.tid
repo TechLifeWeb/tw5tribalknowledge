@@ -1,0 +1,12 @@
+blurb: Not a plugin. Use in your browser to easily copy and paste a link to into your wiki
+created: 20190620204941267
+modified: 20190620205414525
+tags: Plugins
+title: Bookmarklet for pasting links into TiddlyWiki
+type: text/vnd.tiddlywiki
+
+When using my desktop browser, I often need to grab the title and URL of a page to paste it into my TiddlyWiki. I also hate typing all that again so I made this little bookmarklet to do it.
+
+Drag this link up to your browser's bookmark bar:
+
+<a href="javascript:(function()%7Bjavascript%3Avoid(prompt(%22Copy%20the%20text%20below%20and%20paste%20into%20your%20TiddlyWiki%20to%20create%20a%20link%3A%22%2C%20%22%5B%5B%22%2Bdocument.title%2B%22%7C%22%2Blocation.href%2B%22%5D%5D%22))%7D)()" target="_blank" rel="noopener noreferrer">Paste to TiddlyWiki</a>

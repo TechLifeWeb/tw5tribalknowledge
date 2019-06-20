@@ -1,0 +1,14 @@
+created: 20181010162155681
+creator: skingery
+modified: 20190612234828377
+modifier: skingery
+tags: Syntax
+title: Filter for finding all document that start with
+type: text/vnd.tiddlywiki
+
+You can use this in advanced search
+
+
+```
+<<list-links filter:"[prefix[A]] [prefix[B]] [prefix[C]] [prefix[D]] [prefix[E]] [prefix[F]] [prefix[G]] [prefix[H]] [prefix[I]] [prefix[J]] [prefix[K]] [prefix[L]] [prefix[M]] [prefix[N]] [prefix[O]] [prefix[P]] [prefix[Q]] [prefix[R]] [prefix[S]] [prefix[T]] [prefix[U]] [prefix[V]] [prefix[W]] [prefix[X]] [prefix[Y]] [prefix[Z]] [prefix[1]] [prefix[2]] [prefix[3]] [prefix[4]] [prefix[5]] [prefix[6]] [prefix[7]] [prefix[8]] [prefix[9]] [prefix[0]] "">>
+```
